@@ -11,7 +11,7 @@ public class Student extends Thread{
 	}
 	
 	public void receiveWater(){
-		System.out.println(studentName +"跑出教室去接水");
+		System.out.println(studentName +"跑出教室去接水。。。");
 		water.flowWater(studentName);
 		System.out.println(studentName + "接完水，跑回教室");
 	}
